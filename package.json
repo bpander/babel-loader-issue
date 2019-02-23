@@ -1,0 +1,21 @@
+{
+  "name": "ts-starter",
+  "scripts": {
+    "build:tsc": "tsc --noEmit",
+    "build:babel": "babel src --out-dir babel-output --extensions \".ts,.tsx\" --source-maps inline",
+    "build:babel-loader": "webpack"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "ts": "^0.2.2",
+    "typescript": "^3.2.2",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
